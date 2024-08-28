@@ -11,7 +11,7 @@ from tempfile import NamedTemporaryFile
 from langchain_groq import ChatGroq
 import streamlit as st
 
-llm= ChatGroq(groq_api_key= "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",
+llm= ChatGroq(groq_api_key= " ",
               model_name= "Llama-3.1-8b-Instant")
 
 class ImageCaptionTool(BaseTool):
